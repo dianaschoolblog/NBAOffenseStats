@@ -1,0 +1,7 @@
+library(devtools)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+nbastats <- read.csv("NBA Stats 202324 All Stats  NBA Player Props Tool (4).csv")
+str(nbastats)
+nbastats <- nbastats %>% rename(`3P%` = X3P.,`2P%` = X2P., `FT%` = FT.)

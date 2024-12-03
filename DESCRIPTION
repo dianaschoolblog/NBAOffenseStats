@@ -1,0 +1,12 @@
+Package: NBAPlayersOffenseStats
+Type: Package
+Title: NBA Players Offensive Statistics
+Version: 0.1.0
+Author: Diana May
+Maintainer: Diana May <dianamay@usf.edu>
+Description: This package allows the user to compare the offensive statistics
+    (specifically the three point percentage, field goal percentage, free throw percentage, and points per game), between selected
+    players. It can also retrieve the those stats from a singular player and plot a bar graph comparing stats between players.
+License: CCO
+Encoding: UTF-8
+LazyData: true
